@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap');
+body{
+    background-image: url("https://wallpapercave.com/wp/pHUqeRn.jpg");
+    background-size: cover;
+}
+.cafe-cards{
+    margin-top: 50px;
+    transition: transform 0.6s ease;
+}
+.cafe-cards:hover{
+    transform: translateY(-20px);
+}
+.cafe-card-img{
+    height: 50vh;
+}
+.card-body{
+    font-family: "Playwrite AR", cursive;
+    height: 50px;
+    
+}
+.card-body:hover{
+    background-color: black;
+    color: aliceblue;
+}
